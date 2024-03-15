@@ -1,3 +1,4 @@
+import { Footer } from "@/components/footer";
 import { mainFont } from "@/libs/font";
 import "@/styles/global.css";
 
@@ -11,6 +12,7 @@ export default function RootLayout({ children }) {
         <html lang="en" className={mainFont.className}>
             <body className={"layout"}>
                 {children}
+                <Footer />
                 <div className="overlay"></div>
             </body>
         </html>
