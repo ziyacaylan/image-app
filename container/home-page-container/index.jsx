@@ -1,6 +1,7 @@
 import { PromptSuggestions } from "@/container/home-page-container/prompt-suggestions";
 import styles from "./styles.module.scss";
 
+import { Examples } from "@/components/examples";
 import { PropmptForm } from "@/container/home-page-container/propmt-form";
 const HomePageContainer = () => {
     return (
@@ -15,6 +16,7 @@ const HomePageContainer = () => {
             </p>
             <PropmptForm />
             <PromptSuggestions />
+            <Examples />
         </div>
     );
 };
