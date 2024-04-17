@@ -17,7 +17,6 @@ const Footer = () => {
                 <br />
                 and, built with <b>Next.js</b>
             </p>
-            FOOTER
         </footer>
     );
 };

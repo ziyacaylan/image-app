@@ -1,9 +1,15 @@
+"use client";
 import { PromptSuggestions } from "@/container/home-page-container/prompt-suggestions";
 import styles from "./styles.module.scss";
 
 import { Examples } from "@/components/examples";
 import { PropmptForm } from "@/container/home-page-container/propmt-form";
+import { useHomepage } from "@/container/home-page-container/use-homepage";
+
 const HomePageContainer = () => {
+    const test = useHomepage();
+
+    console.log(test);
     return (
         <div className={styles.homePageContainer}>
             <h1 className={styles.title}>
